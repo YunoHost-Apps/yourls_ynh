@@ -51,9 +51,9 @@
             },
             {
                 "name": "admin",
-                "type": "user",
+                "type": "admin",
                 "ask": {
-                    "en": "Choose the Yourls administrator (can be other then YunoHOst registered user)",
+                    "en": "Choose a Yourls administrator (can be other then YunoHost registered user)",
                     "fr": "Administrateur du site Yourls"
                 },
                 "example": "yoda"

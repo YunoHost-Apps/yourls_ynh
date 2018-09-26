@@ -7,7 +7,7 @@
 	; Manifest
 		domain="domain.tld"	(DOMAIN)
 		path="/path"	(PATH)
-		admin="john"	(USER)
+		admin="john"	(admin)
 		password="yourls123" (password)
 	; Checks
 		pkg_linter=1
