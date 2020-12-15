@@ -6,7 +6,7 @@
         "en": "URL shortening service",
         "fr": "Service de raccourcisseur d'URL"
     },
-    "version": "1.7.9~ynh1",
+    "version": "1.7.9~ynh2",
     "url": "https://github.com/YOURLS/YOURLS",
     "license": "MIT",
     "maintainer": {
@@ -16,7 +16,7 @@
     },
     "requirements": {
         "yunohost": ">= 3.8.1"
-    }, 
+    },
     "previous_maintainers": {
         "name": "courgette",
         "email": "courgette@farcie.fr",
