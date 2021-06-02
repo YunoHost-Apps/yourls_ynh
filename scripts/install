@@ -107,13 +107,12 @@ path=${path_url%/}
 random=$(ynh_string_random 24)
 
 ynh_add_config --template="../conf/config.php" --destination="$final_path/user/config.php"
-
 chmod 600 $final_path/user/config.php
 
 #=================================================
 # SETUP SSOWAT
 #=================================================
-ynh_script_progression --message="Configuring permissions..." --time --weight=1
+ynh_script_progression --message="Configuring permissions..." --weight=1
 
 # unprotected_uris allows SSO credentials to be passed anyway.
 ynh_permission_update --permission="main" --add="visitors"
