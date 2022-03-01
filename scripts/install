@@ -93,6 +93,9 @@ ynh_setup_source --dest_dir="$final_path"
 # Install French language
 ynh_setup_source --dest_dir="$final_path/user/languages" --source_id="fr"
 
+# Install LDAP plugin
+ynh_setup_source --dest_dir="$final_path/user/plugins" --source_id="ldap"
+
 # copy index file 
 cp ../conf/index.php $final_path/
 

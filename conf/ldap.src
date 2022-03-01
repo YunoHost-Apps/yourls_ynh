@@ -1,0 +1,5 @@
+SOURCE_URL=https://github.com/k3a/yourls-ldap-plugin/archive/d60ea0e6aa9fba0de6aa4c2a8b38297e01822e34.zip
+SOURCE_SUM=b5f6dba209c6b5a587ee5ec3f92cb445a97efa9796e7ea4a4b5316818ad1962d
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=zip
+SOURCE_IN_SUBDIR=true

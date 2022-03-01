@@ -91,3 +91,9 @@ $yourls_reserved_URL = [
 /*
  ** Personal settings would go after here.
  */
+
+define( 'LDAPAUTH_HOST', 'ldaps://ldap.127.0.0.1' ); // LDAP host name, IP or URL. You can use ldaps://host for LDAP with TLS
+define( 'LDAPAUTH_PORT', '389' ); // LDAP server port - often 389 or 636 for TLS (LDAPS)
+define( 'LDAPAUTH_BASE', 'ou=users,dc=yunohost,dc=org' ); // Base DN (location of users)
+define( 'LDAPAUTH_USERNAME_FIELD', 'cn'); // (optional) LDAP field name in which username is store
+define( 'LDAPAUTH_SEARCH_FILTER', '(&(|(objectclass=posixAccount))(uid={{username}})(permission=cn=__APP__.main,ou=permission,dc=yunohost,dc=org))' ); // Use %s as the place holder for the current user name
