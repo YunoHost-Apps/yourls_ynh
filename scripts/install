@@ -148,7 +148,7 @@ ynh_local_curl "admin/install.php" "install=dummy"
 ynh_script_progression --message="Configuring permissions..." --weight=1
 
 # Only the admin can access the admin panel of the app (if the app has an admin panel)
-ynh_permission_create --permission="admin" --url="/admin" --allowed=$admin
+#ynh_permission_create --permission="admin" --url="/admin" --allowed=$admin
 
 #=================================================
 # RELOAD NGINX
