@@ -55,7 +55,7 @@ define( 'YOURLS_UNIQUE_URLS', true );
 /** Private means the Admin area will be protected with login/pass as defined below.
  ** Set to false for public usage (eg on a restricted intranet or for test setups)
  ** Read http://yourls.org/privatepublic for more details if you're unsure */
-define( 'YOURLS_PRIVATE', true );
+define( 'YOURLS_PRIVATE', false );
 
 /** A random secret hash used to encrypt cookies. You don't have to remember it, make it long and complicated
  ** Hint: copy from http://yourls.org/cookie */
@@ -65,7 +65,7 @@ define( 'YOURLS_COOKIEKEY', '__RANDOM__' );
  ** YOURLS will auto encrypt plain text passwords in this file
  ** Read http://yourls.org/userpassword for more information */
 $yourls_user_passwords = [
-	'__ADMIN__' => '__PASSWORD__',
+	// '__ADMIN__' => '__PASSWORD__',
 	// 'username2' => 'password2',
 	// You can have one or more 'login'=>'password' lines
 ];
