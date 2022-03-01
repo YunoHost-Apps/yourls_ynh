@@ -55,7 +55,7 @@ define( 'YOURLS_UNIQUE_URLS', true );
 /** Private means the Admin area will be protected with login/pass as defined below.
  ** Set to false for public usage (eg on a restricted intranet or for test setups)
  ** Read http://yourls.org/privatepublic for more details if you're unsure */
-define( 'YOURLS_PRIVATE', false );
+define( 'YOURLS_PRIVATE', true );
 
 /** A random secret hash used to encrypt cookies. You don't have to remember it, make it long and complicated
  ** Hint: copy from http://yourls.org/cookie */
@@ -96,4 +96,5 @@ define( 'LDAPAUTH_HOST', 'ldaps://ldap.127.0.0.1' ); // LDAP host name, IP or UR
 define( 'LDAPAUTH_PORT', '389' ); // LDAP server port - often 389 or 636 for TLS (LDAPS)
 define( 'LDAPAUTH_BASE', 'ou=users,dc=yunohost,dc=org' ); // Base DN (location of users)
 define( 'LDAPAUTH_USERNAME_FIELD', 'cn'); // (optional) LDAP field name in which username is store
+define( 'LDAPAUTH_SEARCH_USER', 'cn=__APP__.main,dc=yunohost,dc=org' ); // (optional) Privileged user to search with
 define( 'LDAPAUTH_SEARCH_FILTER', '(&(|(objectclass=posixAccount))(uid={{username}})(permission=cn=__APP__.main,ou=permission,dc=yunohost,dc=org))' ); // Use %s as the place holder for the current user name
