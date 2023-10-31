@@ -42,7 +42,7 @@ Running your own URL shortener is fun, geeky and useful: you own your data and d
 * Site officiel de l’app : <https://yourls.org/>
 * Documentation officielle de l’admin : <https://docs.yourls.org/>
 * Dépôt de code officiel de l’app : <https://github.com/YOURLS/YOURLS>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_yourls>
+* YunoHost Store: <https://apps.yunohost.org/app/yourls>
 * Signaler un bug : <https://github.com/YunoHost-Apps/yourls_ynh/issues>
 
 ## Informations pour les développeurs
