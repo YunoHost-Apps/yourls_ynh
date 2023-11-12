@@ -5,7 +5,7 @@ name = "Yourls"
 description.en = "URL shortening service"
 description.fr = "Service de raccourcisseur d'URL"
 
-version = "1.9.2~ynh3"
+version = "1.9.2~ynh4"
 
 maintainers = [""]
 
@@ -20,8 +20,11 @@ code = "https://github.com/YOURLS/YOURLS"
 yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
+
 ldap = false
+
 sso = false
+
 disk = "50M"
 ram.build = "150M"
 ram.runtime = "50M"
@@ -48,7 +51,7 @@ ram.runtime = "50M"
     ask.en = "Choose the application language"
     ask.fr = "Choisissez la langue de l'application"
     type = "select"
-    select = ["fr_FR", "en_US"]
+    choices = ["fr_FR", "en_US"]
     default = "fr_FR"
 
 [resources]

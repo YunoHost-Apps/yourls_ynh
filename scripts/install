@@ -36,7 +36,7 @@ ynh_setup_source --dest_dir="$install_dir"
 ynh_setup_source --dest_dir="$install_dir/user/languages" --source_id="fr"
 
 # copy index file 
-cp ../conf/index.php $install_dir/
+ynh_add_config --template="index.php" --destination="$install_dir/index.php"
 
 chmod -R o-rwx "$install_dir"
 chown -R $app:www-data "$install_dir"
@@ -50,14 +50,14 @@ ynh_script_progression --message="Configuring NGINX web server..." --weight=2
 ynh_add_nginx_config
 
 # Create a dedicated PHP-FPM config
-ynh_add_fpm_config --usage=low --footprint=low
+ynh_add_fpm_config
 
 #=================================================
 # ADD A CONFIGURATION
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-ynh_add_config --template="../conf/config-sample.php" --destination="$install_dir/user/config.php"
+ynh_add_config --template="config-sample.php" --destination="$install_dir/user/config.php"
 
 chmod 600 "$install_dir/user/config.php"
 chown $app:$app "$install_dir/user/config.php"
