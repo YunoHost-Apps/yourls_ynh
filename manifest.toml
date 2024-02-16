@@ -59,14 +59,15 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/YOURLS/YOURLS/archive/1.9.2.zip"
-        sha256 = "65e242aaf007f86d7bf8f7f2776ee814a632a783749151d043d669512c3b41cb"
-        autoupdate.strategy = "latest_github_tag"
+        url = "https://github.com/YOURLS/YOURLS/archive/refs/tags/1.9.2.tar.gz"
+        sha256 = "62a95ba766d62f3305d75944cbfe12d5a90c08c88fbf2f6e67150d36412b916f"
+        autoupdate.strategy = "latest_github_release"
 
         [resources.sources.fr]
-        url = "https://github.com/ozh/YOURLS-fr_FR/archive/refs/tags/1.8.zip"
-        sha256 = "ef9c0e71d4559994b9df0cd0a558f6faf11eba185c4793ba0e30f3500dab1b04"
-        autoupdate.strategy = "latest_github_tag"
+        url = "https://github.com/ozh/YOURLS-fr_FR/archive/refs/tags/1.8.tar.gz"
+        sha256 = "bfe5c62f6d71bddb4af58618d954738f7bcaea549e9198d900fb615d1a472a12"
+        autoupdate.strategy = "latest_github_release"
+        autoupdate.upstream = "https://github.com/ozh/YOURLS-fr_FR/"
 
     [resources.system_user]
 
