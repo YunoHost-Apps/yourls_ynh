@@ -7,7 +7,7 @@ description.fr = "Service de raccourcisseur d'URL"
 
 version = "1.9.2~ynh4"
 
-maintainers = [""]
+maintainers = []
 
 [upstream]
 license = "MIT"
