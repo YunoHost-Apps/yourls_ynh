@@ -5,9 +5,9 @@ name = "Yourls"
 description.en = "URL shortening service"
 description.fr = "Service de raccourcisseur d'URL"
 
-version = "1.9.2~ynh4"
+version = "1.9.2~ynh5"
 
-maintainers = [""]
+maintainers = []
 
 [upstream]
 license = "MIT"
