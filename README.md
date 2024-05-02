@@ -9,7 +9,7 @@ It shall NOT be edited by hand.
 
 [![Install Yourls with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yourls)
 
-*[Read this README is other languages.](./ALL_README.md)*
+*[Read this README in other languages.](./ALL_README.md)*
 
 > *This package allows you to install Yourls quickly and simply on a YunoHost server.*  
 > *If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
@@ -29,7 +29,7 @@ Running your own URL shortener is fun, geeky and useful: you own your data and d
 - Sample files to create your own public interface
 
 
-**Shipped version:** 1.9.2~ynh4
+**Shipped version:** 1.9.2~ynh5
 
 **Demo:** <https://yourls.org/cookie+>
 
