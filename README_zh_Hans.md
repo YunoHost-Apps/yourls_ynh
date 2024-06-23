@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Yourls
+# YunoHost 上的 Yourls
 
 [![集成程度](https://dash.yunohost.org/integration/yourls.svg)](https://dash.yunohost.org/appci/app/yourls) ![工作状态](https://ci-apps.yunohost.org/ci/badges/yourls.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/yourls.maintain.svg)
 
