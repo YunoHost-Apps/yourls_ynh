@@ -19,8 +19,8 @@ domain=$new_domain
 path=$new_path
 ynh_config_add --template="config-sample.php" --destination="$install_dir/user/config.php"
 
-#REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod 600 "$install_dir/user/config.php"
-#REMOVEME? Assuming the file is setup using ynh_config_add, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown $app:$app "$install_dir/user/config.php"
+chmod 600 "$install_dir/user/config.php"
+chown $app:$app "$install_dir/user/config.php"
 
 #=================================================
 # END OF SCRIPT
