@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Yourls para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/yourls.svg)](https://dash.yunohost.org/appci/app/yourls) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/yourls.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/yourls.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/yourls)](https://ci-apps.yunohost.org/ci/apps/yourls/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/yourls)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/yourls)
 
 [![Instalar Yourls con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yourls)
 

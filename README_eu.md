@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Yourls YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/yourls.svg)](https://dash.yunohost.org/appci/app/yourls) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/yourls.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/yourls.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/yourls)](https://ci-apps.yunohost.org/ci/apps/yourls/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/yourls)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/yourls)
 
 [![Instalatu Yourls YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yourls)
 

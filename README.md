@@ -5,7 +5,9 @@ It shall NOT be edited by hand.
 
 # Yourls for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/yourls.svg)](https://dash.yunohost.org/appci/app/yourls) ![Working status](https://ci-apps.yunohost.org/ci/badges/yourls.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/yourls.maintain.svg)
+[![Integration level](https://apps.yunohost.org/badge/integration/yourls)](https://ci-apps.yunohost.org/ci/apps/yourls/)
+![Working status](https://apps.yunohost.org/badge/state/yourls)
+![Maintenance status](https://apps.yunohost.org/badge/maintained/yourls)
 
 [![Install Yourls with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yourls)
 
