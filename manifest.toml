@@ -17,13 +17,12 @@ admindoc = "https://docs.yourls.org/"
 code = "https://github.com/YOURLS/YOURLS"
 
 [integration]
-yunohost = ">= 11.2.18"
+yunohost = ">= 12.0.9"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
@@ -82,7 +81,7 @@ ram.runtime = "50M"
     admin.allowed = "admins"
 
     [resources.apt]
-    packages = "mariadb-server, php8.1-gmp, php8.1-bcmath, php8.1-curl, php8.1-mysql, php8.1-zip, php8.1-gd, php8.1-mbstring, php8.1-xml"
+    packages = "mariadb-server, php8.3-gmp, php8.3-bcmath, php8.3-curl, php8.3-mysql, php8.3-zip, php8.3-gd, php8.3-mbstring, php8.3-xml"
 
     [resources.database]
     type = "mysql"
