@@ -5,7 +5,7 @@ name = "Yourls"
 description.en = "URL shortening service"
 description.fr = "Service de raccourcisseur d'URL"
 
-version = "1.9.2~ynh5"
+version = "1.9.2~ynh6"
 
 maintainers = []
 
@@ -17,12 +17,12 @@ admindoc = "https://docs.yourls.org/"
 code = "https://github.com/YOURLS/YOURLS"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 12.0.9"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
 
 ldap = false
-
 sso = false
 
 disk = "50M"
@@ -72,6 +72,7 @@ ram.runtime = "50M"
     [resources.system_user]
 
     [resources.install_dir]
+    group = "www-data:r-x"
 
     [resources.permissions]
     main.url = "/"
@@ -80,7 +81,7 @@ ram.runtime = "50M"
     admin.allowed = "admins"
 
     [resources.apt]
-    packages = "mariadb-server, php8.1-gmp, php8.1-bcmath, php8.1-curl, php8.1-mysql, php8.1-zip, php8.1-gd, php8.1-mbstring, php8.1-xml"
+    packages = "mariadb-server, php8.3-gmp, php8.3-bcmath, php8.3-curl, php8.3-mysql, php8.3-zip, php8.3-gd, php8.3-mbstring, php8.3-xml"
 
     [resources.database]
     type = "mysql"

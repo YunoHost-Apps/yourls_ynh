@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Yourls
 
-[![集成程度](https://dash.yunohost.org/integration/yourls.svg)](https://dash.yunohost.org/appci/app/yourls) ![工作状态](https://ci-apps.yunohost.org/ci/badges/yourls.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/yourls.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/yourls)](https://ci-apps.yunohost.org/ci/apps/yourls/)
+![工作状态](https://apps.yunohost.org/badge/state/yourls)
+![维护状态](https://apps.yunohost.org/badge/maintained/yourls)
 
 [![使用 YunoHost 安装 Yourls](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yourls)
 
@@ -29,7 +31,7 @@ Running your own URL shortener is fun, geeky and useful: you own your data and d
 - Sample files to create your own public interface
 
 
-**分发版本：** 1.9.2~ynh5
+**分发版本：** 1.9.2~ynh6
 
 **演示：** <https://yourls.org/cookie+>
 

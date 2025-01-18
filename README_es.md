@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # Yourls para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/yourls.svg)](https://dash.yunohost.org/appci/app/yourls) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/yourls.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/yourls.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/yourls)](https://ci-apps.yunohost.org/ci/apps/yourls/)
+![Estado funcional](https://apps.yunohost.org/badge/state/yourls)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/yourls)
 
 [![Instalar Yourls con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=yourls)
 
@@ -29,7 +31,7 @@ Running your own URL shortener is fun, geeky and useful: you own your data and d
 - Sample files to create your own public interface
 
 
-**Versión actual:** 1.9.2~ynh5
+**Versión actual:** 1.9.2~ynh6
 
 **Demo:** <https://yourls.org/cookie+>
 
@@ -47,7 +49,7 @@ Running your own URL shortener is fun, geeky and useful: you own your data and d
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/yourls_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/yourls_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
