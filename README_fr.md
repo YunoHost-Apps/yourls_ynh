@@ -31,7 +31,7 @@ Running your own URL shortener is fun, geeky and useful: you own your data and d
 - Sample files to create your own public interface
 
 
-**Version incluse :** 1.9.2~ynh5
+**Version incluse :** 1.9.2~ynh6
 
 **Démo :** <https://yourls.org/cookie+>
 
