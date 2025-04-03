@@ -5,7 +5,7 @@ name = "Yourls"
 description.en = "URL shortening service"
 description.fr = "Service de raccourcisseur d'URL"
 
-version = "1.9.2~ynh6"
+version = "1.10.0~ynh1"
 
 maintainers = []
 
@@ -59,8 +59,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/YOURLS/YOURLS/archive/refs/tags/1.9.2.tar.gz"
-        sha256 = "62a95ba766d62f3305d75944cbfe12d5a90c08c88fbf2f6e67150d36412b916f"
+        url = "https://github.com/YOURLS/YOURLS/archive/refs/tags/1.10.0.tar.gz"
+        sha256 = "2756e534ef8a92fc183af5000583b354c9f147beca4a35f68dbe1b0ed0e40bc5"
         autoupdate.strategy = "latest_github_release"
 
         [resources.sources.fr]
@@ -81,7 +81,7 @@ ram.runtime = "50M"
     admin.allowed = "admins"
 
     [resources.apt]
-    packages = "mariadb-server, php8.3-gmp, php8.3-bcmath, php8.3-curl, php8.3-mysql, php8.3-zip, php8.3-gd, php8.3-mbstring, php8.3-xml"
+    packages = "mariadb-server, php8.4-gmp, php8.4-bcmath, php8.4-curl, php8.4-mysql, php8.4-zip, php8.4-gd, php8.4-mbstring, php8.4-xml"
 
     [resources.database]
     type = "mysql"

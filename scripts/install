@@ -31,23 +31,23 @@ ynh_setup_source --dest_dir="$install_dir/user/languages" --source_id="fr"
 ynh_config_add --template="index.php" --destination="$install_dir/index.php"
 
 #=================================================
-# NGINX CONFIGURATION
+# APP INITIAL CONFIGURATION
 #=================================================
-ynh_script_progression "Configuring NGINX web server..."
-
-ynh_config_add_nginx
-
-ynh_config_add_phpfpm
-
-#=================================================
-# ADD A CONFIGURATION
-#=================================================
-ynh_script_progression "Adding $app's configuration..."
+ynh_script_progression "Adding $app's configuration files..."
 
 ynh_config_add --template="config-sample.php" --destination="$install_dir/user/config.php"
 
 chmod 600 "$install_dir/user/config.php"
 chown $app:$app "$install_dir/user/config.php"
+
+#=================================================
+# SYSTEM CONFIGURATION
+#=================================================
+ynh_script_progression "Adding system configurations related to $app..."
+
+ynh_config_add_nginx
+
+ynh_config_add_phpfpm
 
 #=================================================
 # SETUP APPLICATION WITH CURL
