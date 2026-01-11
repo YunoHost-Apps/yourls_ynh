@@ -5,7 +5,7 @@ name = "Yourls"
 description.en = "URL shortening service"
 description.fr = "Service de raccourcisseur d'URL"
 
-version = "1.10.2~ynh1"
+version = "1.10.3~ynh1"
 
 maintainers = []
 
@@ -59,8 +59,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/YOURLS/YOURLS/archive/refs/tags/1.10.2.tar.gz"
-        sha256 = "c1a5c35d4f47c322d29adffb1a89642544e609808561cf340dc046af58a900e8"
+        url = "https://github.com/YOURLS/YOURLS/archive/refs/tags/1.10.3.tar.gz"
+        sha256 = "71749ae9b3950d6a7c043b1240aba8645e912c3c22eac5abfb6ae3cc576ff740"
         autoupdate.strategy = "latest_github_release"
 
         [resources.sources.fr]
