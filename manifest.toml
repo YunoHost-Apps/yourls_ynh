@@ -5,7 +5,7 @@ name = "Yourls"
 description.en = "URL shortening service"
 description.fr = "Service de raccourcisseur d'URL"
 
-version = "1.10.5~ynh1"
+version = "1.10.6~ynh1"
 
 maintainers = []
 
@@ -17,7 +17,7 @@ admindoc = "https://docs.yourls.org/"
 code = "https://github.com/YOURLS/YOURLS"
 
 [integration]
-yunohost = ">= 12.1.39"
+yunohost = ">= 12.1.40"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -30,6 +30,7 @@ ram.build = "150M"
 ram.runtime = "50M"
 
 [install]
+
     [install.domain]
     type = "domain"
 
@@ -59,8 +60,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/YOURLS/YOURLS/archive/refs/tags/1.10.5.tar.gz"
-        sha256 = "4c1ff34798762599eeb446884c6a436e43a89e74923aa92fdf55825b0cbb9e6e"
+        url = "https://github.com/YOURLS/YOURLS/archive/refs/tags/1.10.6.tar.gz"
+        sha256 = "95549b8463c67a88eaa93f5dd8079599bc895f5ca047001ce385d1afdda26563"
         autoupdate.strategy = "latest_github_release"
 
         [resources.sources.fr]
@@ -81,7 +82,7 @@ ram.runtime = "50M"
     admin.allowed = "admins"
 
     [resources.apt]
-    packages = "mariadb-server, php8.4-gmp, php8.4-bcmath, php8.4-curl, php8.4-mysql, php8.4-zip, php8.4-gd, php8.4-mbstring, php8.4-xml"
+    packages = "mariadb-server, php8.5-gmp, php8.5-bcmath, php8.5-curl, php8.5-mysql, php8.5-zip, php8.5-gd, php8.5-mbstring, php8.5-xml"
 
     [resources.database]
     type = "mysql"
